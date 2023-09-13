@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Cloud_Company/static/css/main.1c71fd87.css",
-    "main.js": "/Cloud_Company/static/js/main.a6b2dc3a.js",
-    "index.html": "/Cloud_Company/index.html",
-    "static/media/worldicon.svg": "/Cloud_Company/static/media/worldicon.13641ca0d1bfe06b5f4b73accac86430.svg",
-    "main.1c71fd87.css.map": "/Cloud_Company/static/css/main.1c71fd87.css.map",
-    "main.a6b2dc3a.js.map": "/Cloud_Company/static/js/main.a6b2dc3a.js.map"
+    "main.css": "/cloudipl/static/css/main.1c71fd87.css",
+    "main.js": "/cloudipl/static/js/main.ed9ebd26.js",
+    "index.html": "/cloudipl/index.html",
+    "static/media/worldicon.svg": "/cloudipl/static/media/worldicon.13641ca0d1bfe06b5f4b73accac86430.svg",
+    "main.1c71fd87.css.map": "/cloudipl/static/css/main.1c71fd87.css.map",
+    "main.ed9ebd26.js.map": "/cloudipl/static/js/main.ed9ebd26.js.map"
   },
   "entrypoints": [
     "static/css/main.1c71fd87.css",
-    "static/js/main.a6b2dc3a.js"
+    "static/js/main.ed9ebd26.js"
   ]
 }
