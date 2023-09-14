@@ -1,0 +1,24 @@
+.Loader-container{
+    height: 15vmin;
+    width: 100%;
+    margin: 2.5vmin;
+    display: grid;
+    place-items: center;
+}
+.loader{
+    height: 10vmin;
+    width: 10vmin;
+    border: 0.5vmin solid rgba(0, 0, 0, 0);
+    border-top: 0.5vmin solid rgb(28, 81, 255);
+    border-right: 0.5vmin solid rgb(28, 81, 255);
+    border-bottom: 0.5vmin solid rgb(28, 81, 255);
+    border-radius: 50%;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes spin{
+    0%{transform:rotate(0deg);}
+    100%{transform:rotate(360deg);}
+}

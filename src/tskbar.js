@@ -1,6 +1,6 @@
 import logo from './assets/companylogo.png';
 import worldicon from './assets/worldicon.svg';
-import './css/App.css';
+import './css/tskbar.css';
 function tskBar(){
     return(
         <div className="container">
