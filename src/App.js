@@ -27,7 +27,7 @@ function App() {
         <Helmet>
             <meta charSet="utf-8" />
             <title>IPL For Hire</title>
-            <link rel="canonical" href="http://mysite.com/example" />
+            <link rel="canonical" href="https://selvaprasanth-sellasamy.github.io/cloudipl/" />
             <meta name="description" content="IPL Team" />
         </Helmet>
       <div className="wrap">
