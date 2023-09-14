@@ -2,6 +2,7 @@ import './css/App.css';
 import Axios from 'axios';
 import {useState} from 'react';
 import TskBar from './tskbar';
+import {Helmet} from 'react-helmet';
 function App() {
   const [object,setObj]=useState('');
   const [gender,setGen]=useState('');
@@ -19,6 +20,12 @@ function App() {
 
   return (
     <div className="App">
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>IPL Team</title>
+            <link rel="canonical" href="http://mysite.com/example" />
+            <meta name="description" content="IPL Team" />
+        </Helmet>
       <div className="taskbar">
         <TskBar/>
       </div>
