@@ -2,25 +2,33 @@ import './css/App.css';
 import Axios from 'axios';
 import {useState} from 'react';
 import TskBar from './tskbar';
-// import Loader from './loader';
+import Loader from './loader';
 import {Helmet} from 'react-helmet';
 function App() {
   const [object,setObj]=useState('');
   const [gender,setGen]=useState('');
   const [Year,setYear]=useState('');
+  const [Spin,setSpin]=useState(false);
   async function getData(){
     try {
+      setSpin(true)
       const data= await Axios.get('https://www.mockachino.com/5db99bd2-28c5-46/ipl/table')
       const obj=data.data.points
       setObj(obj)
     } catch (error) {
       console.log('Something went wrong '+error)
     }
+    setSpin(false)
   }
   const theadVisibility={
     display:'none'
   }
-
+  const ShowSpin={
+    display:'flex'
+  }
+  const HideSpin={
+    display:'none'
+  }
 
   return (
     <div className="App">
@@ -55,9 +63,9 @@ function App() {
           <option value="2023">2023</option>
           </select>
         </div>
-        {/* <div className="loading">
+        <div style={Spin?ShowSpin:HideSpin} className="loading">
           <Loader/>
-        </div> */}
+        </div>
         <div style={object && Year ? null:theadVisibility} className="table">
           <table>
             <thead>
